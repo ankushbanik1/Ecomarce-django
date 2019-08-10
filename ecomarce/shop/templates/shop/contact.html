@@ -42,34 +42,6 @@ background-color: #74B9FF;
 <br>
 <br>
 <br>
-<!-- <div class="row text-center">
-        <div class="col-md-6">
-            <img class="img-1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj9_BuIVt6SM2NACg1IOQEtA37qSPIHShY7XhuRT0YKA87gSyYuQ">
-                <br><h3> <strong>Sales Enquiries</strong> </h3>
-             <br>
-          
-             <h5>
-                Interested in any of our products? Talk to our experts today <br>
-                
-                US: +1 (855) 747 6767 | Australia: +61 1800 861 302 <br>
-                
-                UK: +44 8081 698 824 | +44 189 280 5040 <br>
-            
-                India: +91 44 6667 8040 | Germany: +49 305 884 9246    <br>
-                
-                France: +33 17 585 0312 | Sweden: +46 10 138 9041 </h5>
-                
-              <h5>  Spain: +34 51 888 0864 | Netherlands: +31 85 001 3362 <br>
-                
-                Finland & Estonia: +358 75 326 7796 | Denmark: +45 7875 4730 <br>
-                
-                Email: support@freshdesk.com | EU-sales@freshworks.com  <br>
-                
-                (Availability 24*5)
-            </h5> 
-                </div>
-        <div class="col-md-6">.col-sm-4</div>
-      </div></div> -->
        <div class="container">     
 <section class="pb-xl ">
         <div class="l-page container-fluid  " data-scroll-target="" id ="">
@@ -108,9 +80,9 @@ background-color: #74B9FF;
                 <div class="text-center card-title"><h2>Contact Us</h2></div>
             <form action="/shop/contact/" method="post">
               {% csrf_token %}
-                    <label></label>    <input id="name" placeholder=" Enter Full Name" type="text" class="form-control form-control-lg">
-                    <label></label>    <input id="email" required placeholder="Enter  Email" type="text" class="form-control form-control-lg">
-                    <label></label>    <textarea id="msg" placeholder="Enter a massege" type="text" class="form-control form-control-lg">
+                    <label></label>    <input name="name" id="name" placeholder=" Enter Full Name" type="text" class="form-control form-control-lg">
+                    <label></label>    <input name="email" id="email" required placeholder="Enter  Email" type="text" class="form-control form-control-lg">
+                    <label></label>    <textarea name="msg" id="msg" placeholder="Enter a massege" type="text" class="form-control form-control-lg">
                </textarea>
                <br>
                <br>
